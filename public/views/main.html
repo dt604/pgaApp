@@ -1,0 +1,22 @@
+<br />
+
+<div class="container">
+	<div class="row">
+		<b>Name: </b><input type="text" ng-model="golfer.name">
+		<b>Email: </b><input type="email" ng-model="golfer.email">
+		<button ng-click="addGolfer(golfer)">Add Golfer</button>
+	</div>
+</div>
+
+<br/><br />
+
+<div class="container">
+	<div class="row">
+		<div ng-repeat="golfer in golfers">
+			<p><b>Golfer: </b>{{golfer.name}}</p>
+			<p><b>Email: </b>{{golfer.email}}</p>
+
+			<hr>
+		</div>
+	</div>
+</div>

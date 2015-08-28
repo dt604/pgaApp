@@ -1,0 +1,23 @@
+{
+  "name": "pgagolfers",
+  "version": "0.0.0",
+  "authors": [
+    "Danny Tran <dantran604@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-resource": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}
